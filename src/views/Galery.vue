@@ -133,17 +133,17 @@ export default {
           "Todos": () => {
             return true;
            },
-          costa: (el) => {
+          paisajes: (el) => {
             let categoria = el.categoryValue.join('');
-            return categoria === "costa" || categoria === "costasierra" || categoria === "costaselva";
+            return categoria === "paisajes" || categoria === "paisajesflora" || categoria === "paisajesfauna" || categoria === "florapaisajes" || categoria === "faunapaisajes";
            },
-          sierra: (el) => {
+          flora: (el) => {
             let categoria = el.categoryValue.join('');
-            return categoria === "sierra" || categoria === "costasierra" || categoria === "sierraselva" ;
+            return categoria === "flora" || categoria === "florapaisajes" || categoria === "florafauna" || categoria === "paisajesflora" || categoria === "faunaflora";
           },
-          selva: (el) => {
+          fauna: (el) => {
              let categoria = el.categoryValue.join('');
-            return categoria === "selva" || categoria === "costaselva" || categoria === "sierraselva";
+            return categoria === "fauna" || categoria === "faunapaisajes" || categoria === "faunaflora" || categoria === "paisajesfauna" || categoria === "florafauna";
           }
         }
       }

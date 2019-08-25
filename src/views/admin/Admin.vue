@@ -118,7 +118,7 @@ import firebase from 'firebase'
         seletedFile:null,
         seletedFileName:'',
         picture:null,
-        category: ['costa', 'sierra', 'selva'],
+        category: ['paisajes', 'flora', 'fauna'],
         categoryValue: null,
         uploadValue:0,
         messageErrorShow:false,

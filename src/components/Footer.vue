@@ -22,26 +22,26 @@
         <h5 class="headline">Categorias</h5>
         <ul class="footer-categoria__ul">
           <li class="footer-categoria__li">Paisajes</li>
-          <li class="footer-categoria__li">Aves</li>
-          <li class="footer-categoria__li">Plantas</li>
-          <li class="footer-categoria__li">Flores</li>
+          <li class="footer-categoria__li">Flora</li>
+          <li class="footer-categoria__li">Fauna</li>
+          <!-- <li class="footer-categoria__li">Flores</li> -->
         </ul>
       </v-flex>
       <v-flex xs12 md4 lg4 class="mb-3">
         <h5 class="headline">Archivos</h5>
         <ul class="footer-categoria__ul">
+          <li class="footer-categoria__li">Observación de aves</li>
+          <li class="footer-categoria__li">Gastronomía</li>
           <li class="footer-categoria__li">Turismo</li>
-          <li class="footer-categoria__li">Alpinismo</li>
-          <li class="footer-categoria__li">Huaraz</li>
-          <li class="footer-categoria__li">Iquitos</li>
+          <li class="footer-categoria__li">Ica</li>
         </ul>
       </v-flex>
       <v-flex xs12 md4 lg4 class="mb-3">
         <h5 class="headline">Contacto</h5>
         <ul class="footer-categoria__ul">
           <li class="footer-contacto__li"><v-icon class="mr-3">fas fa-map-marker-alt</v-icon> Ica-Perú</li>
-          <li class="footer-contacto__li"><v-icon class="mr-3">fas fa-phone</v-icon>+945 335 795</li>
-          <li class="footer-contacto__li"><v-icon class="mr-3">fas fa-envelope</v-icon>genaropretill@gmail.com</li>
+          <li class="footer-contacto__li"><v-icon class="mr-3">fas fa-phone</v-icon>+941 947 154</li>
+          <li class="footer-contacto__li"><v-icon class="mr-3">fas fa-envelope</v-icon>matthewsrn38@gmail.com</li>
         </ul>
       </v-flex>
       <v-divider></v-divider>

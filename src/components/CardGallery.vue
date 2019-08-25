@@ -44,7 +44,7 @@
                 <span class="green--text darken-4 subtitle-1 lineheight"><b>Descripción</b></span>
                 <br>
                 <p  class="ml-4 mr-3">{{gallery.description}} 
-                  <a :href="gallery.link" class="dialog-description__link" v-show="enlace" target="_black">Enlace de sugerencia</a>
+                  <a :href="gallery.link" class="dialog-description__link" v-show="enlace" target="_black">Enlace adicional</a>
                 </p>
               </v-flex>
              <v-flex class="dialog-detalles" lg6 md6 sm12 xs12>

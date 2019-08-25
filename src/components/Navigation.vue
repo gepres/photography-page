@@ -38,16 +38,16 @@
           <v-footer dark height="auto" fixed>
           <v-card class="flex" flat tile>
             <v-card-title class="colorNav justify-center">
-              <v-btn class="mx-3 white--text" icon href="https://www.google.com.pe/" target="_blank">
+              <v-btn class="mx-3 white--text" icon href="https://www.facebook.com/matthews.rn" target="_blank">
                 <v-icon size="20px">fab fa-facebook</v-icon>
               </v-btn>
-              <v-btn class="mx-3 white--text" icon href="https://www.google.com.pe/" target="_blank">
+              <v-btn class="mx-3 white--text" icon href="https://twitter.com/matthewsRn" target="_blank">
                 <v-icon size="20px">fab fa-twitter</v-icon>
               </v-btn>
-              <v-btn class="mx-3 white--text" icon href="https://www.google.com.pe/" target="_blank">
+              <v-btn class="mx-3 white--text" icon href="" target="_blank">
                 <v-icon size="20px">fab fa-linkedin</v-icon>
               </v-btn>
-              <v-btn class="mx-3 white--text" icon href="https://www.google.com.pe/" target="_blank">
+              <v-btn class="mx-3 white--text" icon href="https://www.instagram.com/matthews_rn/?hl=es-la" target="_blank">
                 <v-icon size="20px">fab fa-instagram</v-icon>
               </v-btn>
             </v-card-title>

@@ -6,7 +6,7 @@
       <v-flex class="dark--text">
         <h1 class="display-1">Acerca</h1>
         <v-flex xs12 lg9>
-          <p class="grey--text darken-1 mt-3 ml-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolor fuga deleniti voluptatum. At, numquam?</p>
+          <p class="grey--text darken-1 mt-3 ml-3">Soy fotógrafo de la naturaleza, estudiante de biología.</p>
         </v-flex>
       </v-flex>
     </v-layout>
@@ -21,12 +21,12 @@
       </v-flex>
       <v-flex lg6 md6 class="light-green pa-5 lighten-5 content-section2__parrafo">
         <h2 class="display-1 my-2 font-weight-bold">Fotógrafo Profesional</h2>
-        <p class="grey--text darken-1">22Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo itaque quis eaque aspernatur? Distinctio sit adipisci praesentium repellat dolores corporis, maxime, quaerat cumque, eaque obcaecati cupiditate vel natus omnis repellendus!</p>
+        <p class="grey--text darken-1">Fotógrafo amateur, estudiante de biología, amante de la naturaleza, loco obsesionado con la observación de aves.<br>
+        Me gusta dar a conocer sobre la flora y fauna de nuestro Perú, además de las culturas tenemos.
+        </p>
         <ul class="grey--text darken-1">
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Estudiante de biología.</li>
+          <li>Amante de la naturaleza.</li>
         </ul>
       </v-flex>
     </v-layout>
@@ -94,5 +94,9 @@ figure{
 	padding: 0;
 	background: #fff;
 	overflow: hidden;
+  -webkit-box-shadow: 10px 10px 25px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 25px -5px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 25px -5px rgba(0,0,0,0.75);
 }
+
 </style>

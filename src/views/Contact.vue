@@ -14,24 +14,25 @@
       <v-layout justify-space-around wrap>
         <v-flex xs12 class="mb-4"><h2 class="headline">Información de contacto</h2></v-flex>
         <v-flex lg2 class="grey lighten-5 pa-3 content-contact">
-          <p class="grey--text darken-1">Dirección: <br><span class="black--text">lisboa #362</span></p>
+          <p class="grey--text darken-1">Dirección: <br><span class="black--text">Atenas #211</span></p>
           <span class="black--text">Ica - Perú</span>
         </v-flex>
         <v-flex lg2 class="grey lighten-5 pa-3 content-contact">
-          <p class="grey--text darken-1">Telefono: <br> <span class="black--text">+945 335 795</span></p>
+          <p class="grey--text darken-1">Telefono: <br> <span class="black--text">+941 947 154</span></p>
         </v-flex>
         <v-flex lg3 class="grey lighten-5 pa-3 content-contact">
-           <p class="grey--text darken-1">Correo: <br> <span class="black--text">genaropretill@gmail.com</span></p>
+           <p class="grey--text darken-1">Correo: <br> <span class="black--text">matthewsrn38@gmail.com</span></p>
         </v-flex>
         <v-flex lg3 class="grey lighten-5 pa-3 content-contact">
-          <p class="grey--text darken-1">Pagina: <br> <span class="black--text">www.gepresdesign.com</span></p>
+          <p class="grey--text darken-1">Pagina: <br> <span class="black--text">www.wildlife-culture.com</span></p>
         </v-flex>
       </v-layout>
       <!-- END -- Información de contacto -->
       <!-- STAR - Mapa y formulario  -->
       <v-layout wrap my-5>
         <v-flex lg6 md6 sm12 xs12 d-flex justify-center>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.6371500015584!2d-75.70571363029124!3d-14.03950972801843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x911102ad0a07df3f%3A0xa29d52a653d0285b!2sPlaza+Jos%C3%A9+Olaya!5e0!3m2!1ses-419!2spe!4v1564549551124!5m2!1ses-419!2spe" width="auto" height="300" frameborder="0" style="border:0;" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1935.2993690215437!2d-75.70497034206765!3d-14.041783395476116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDAyJzMwLjQiUyA3NcKwNDInMTQuMCJX!5e0!3m2!1ses-419!2spe!4v1566756125546!5m2!1ses-419!2spe" width="auto" height="300" frameborder="0" style="border:0;" allowfullscreen></iframe>
+          
         </v-flex>        
         <v-flex lg6 md6 sm12 xs12 d-flex justify-center class="text-xs-center">
           <v-flex lg10 md10 sm10 xs10 class="grey lighten-5 form-contact">

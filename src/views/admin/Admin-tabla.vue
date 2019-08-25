@@ -175,7 +175,7 @@ import { mapGetters } from 'vuex'
           description:'',
           categoryValue:null
         },
-        category: ['costa', 'sierra', 'selva'],
+        category: ['paisajes', 'flora', 'fauna'],
         headers: [
           {
             text: 'Id',
