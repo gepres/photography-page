@@ -33,6 +33,7 @@
             <v-text-field
               v-model="password"
               :rules="passwordRules"
+              type="password"
               label="Contraseña"
               required
               @keyup.enter="ingresar"

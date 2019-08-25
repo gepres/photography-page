@@ -137,13 +137,13 @@ export default {
             let categoria = el.categoryValue.join('');
             return categoria === "costa" || categoria === "costasierra" || categoria === "costaselva";
            },
-          selva: (el) => {
-             let categoria = el.categoryValue.join('');
-            return categoria === "selva" || categoria === "costaselva" || categoria === "sierraselva";
-          },
           sierra: (el) => {
             let categoria = el.categoryValue.join('');
             return categoria === "sierra" || categoria === "costasierra" || categoria === "sierraselva" ;
+          },
+          selva: (el) => {
+             let categoria = el.categoryValue.join('');
+            return categoria === "selva" || categoria === "costaselva" || categoria === "sierraselva";
           }
         }
       }

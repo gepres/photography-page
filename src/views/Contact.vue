@@ -39,7 +39,7 @@
             ref="form"
             v-model="valid"
             lazy-validation
-            action=""
+            action="https://us-central1-fotografia-page-gepres.cloudfunctions.net/enviarEmail"
             method="post"
             @submit="enviar"
           >
