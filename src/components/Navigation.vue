@@ -28,7 +28,7 @@
             <v-btn flat to="/gallery" block>Galeria</v-btn>
             <v-btn flat to="/about" block>Acerca</v-btn>
             <v-btn flat to="/contact" block>Contacto</v-btn>
-            <v-btn v-show="observadorLogin" flat to="/login" block>Login</v-btn>
+            <v-btn v-show="observadorLogin" flat to="/login" block>Ingresar</v-btn>
              <v-btn v-show="observador" flat to="/admin" block>Admin</v-btn>
         </v-flex>
       </v-layout>

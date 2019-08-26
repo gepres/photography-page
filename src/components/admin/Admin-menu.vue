@@ -5,7 +5,7 @@
         <v-btn flat to="/admin">Agregar</v-btn>
         <v-btn flat to="/admin-tabla">Tabla</v-btn>
         <v-toolbar-title class="emailNav">{{emailNav}}</v-toolbar-title>
-        <v-btn round outline color="green lighten-5" @click="salir" >salir</v-btn>
+        <v-btn round outline color="green lighten-5" class="btn-salir" @click="salir" >salir</v-btn>
   </v-toolbar>
 </div>
 </template>
@@ -45,5 +45,10 @@ import firebase from 'firebase'
 <style lang="scss" scoped>
 .emailNav{
   margin-right: 1.5rem;
+}
+.btn-salir{
+  @media screen and (max-width:360px) {
+    right: 15px;
+  }
 }
 </style>

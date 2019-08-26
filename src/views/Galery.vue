@@ -23,7 +23,10 @@
       <isotope  ref="cpt" @filter="filterOption=arguments[0]" v-images-loaded:on.progress="layout" :list="this.$store.getters.getItems" :item-selector="'element-item'" id="root_isotope" class="row" :options='option'>
         <v-flex v-for="gallery in this.$store.getters.getItems" :class="gallery.categoryValue" :key="gallery.id" lg4 md4 sm6 xs12>
           <v-card class="img">
-            <img :src="gallery.imageStorage" :alt="gallery.nameComplete" style="max-width: 100%;"/>
+            <figure class="">
+              <img :src="gallery.imageStorage" :alt="gallery.nameComplete" style="max-width: 100%;" />
+              <!-- style="max-width: 100%; -->
+            </figure>
             <v-card-actions>
               <p><b class="green--text lighten-2">{{gallery.name}}</b></p>
               <v-spacer></v-spacer>
@@ -166,6 +169,9 @@ export default {
 <style lang="scss" scoped>
 .gallery{
   padding: 0 !important;
+  //  @media screen and (max-width:1024px) {
+  //    margin:0 !important;
+  //  }
 }
 .menu-isotope{
   & ul {
@@ -188,10 +194,20 @@ export default {
 .is-checked {
   color: #81C784;
   font-weight: 700;
+  text-shadow: 13px 1px 15px #9CCC65;
 }
 .card{
   background: #81C784;
 }
+// .img-figure img{
+//   @media screen and (max-width:1264px) {
+//     display: block;
+//     max-width:366.328px;
+//     max-height:206.047px;
+//     width: 366.328px;
+//     height: 366.328px;
+//   }
+// }
 .card-body{
   display:flex;
   padding:0 !important;

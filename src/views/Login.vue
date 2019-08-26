@@ -1,6 +1,6 @@
 <template>
   <div>
-    <SliderText link="Login"/>
+    <SliderText link="Ingresar"/>
     <v-container>
       <v-layout wrap>
       <v-flex lg4 md10 >
