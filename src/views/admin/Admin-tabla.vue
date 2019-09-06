@@ -209,18 +209,18 @@ import { mapGetters } from 'vuex'
       deleteItem(item){
         const storageRef = firebase.storage()
         storageRef.refFromURL(item.imageStorage).delete().then(() =>{
-            console.log('se elimino la imagen', item.imageStorage);    
+            // console.log('se elimino la imagen', item.imageStorage);    
         }).catch(function(error) {
             console.log('error');   
         });
          db.collection("gallery").doc(item.id).delete().then(() => {
-          console.log(`tu id eliminado es ${item.id} y ${item.name} `);
+          // console.log(`tu id eliminado es ${item.id} y ${item.name} `);
           this.dialogDelete = false
         }).catch(function(error) {
             console.error("Error removing document: ", error);
         });
       },
-      guardar(id,name,nameComplete,date,description,link){
+      guardar(id,name,nameComplete,date,description,link,categoryValue){
         if(this.editedItem.name !== '' &&  this.editedItem.nameComplete !== '' && this.editedItem.description !== '' && this.editedItem.date !== ''){
           var galleryRef = db.collection("gallery").doc(id);
         return galleryRef.update({
@@ -231,7 +231,7 @@ import { mapGetters } from 'vuex'
           link:link,
           categoryValue:categoryValue
         }).then(() => {
-          console.log("Documento actualizado con éxito!");
+          // console.log("Documento actualizado con éxito!");
           this.dialog = false
         })
         .catch(function(error) {

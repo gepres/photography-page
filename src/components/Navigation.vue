@@ -14,7 +14,7 @@
       <v-layout  mt-4 column align-center>
         <v-flex>
           <v-avatar>
-            <img src="@/assets/camara.svg" class="logo">
+            <img src="@/assets/camara-5.svg" class="logo">
           </v-avatar>
         </v-flex>
         <v-flex>
@@ -53,7 +53,7 @@
             </v-card-title>
 
             <v-card-actions class="colorNav darken-1 justify-center">
-              &copy;{{ new Date().getFullYear() }}— <strong>GepresDesign</strong>
+              &copy;{{ new Date().getFullYear() }}— <strong><a class="brand"  href="https://www.facebook.com/genaro.pretillescobar" target="_blank">GepresDesign</a></strong>
             </v-card-actions>
           </v-card>
         </v-footer>
@@ -99,5 +99,9 @@ export default {
 }
 a{
   margin:0 !important;
+}
+.brand{
+  text-decoration:none;
+  color:rgb(255, 255, 255);
 }
 </style>

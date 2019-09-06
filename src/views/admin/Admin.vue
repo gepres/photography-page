@@ -176,8 +176,8 @@ import firebase from 'firebase'
               link:this.link,
               categoryValue:this.categoryValue
             }).then((res) => {
-              console.log("Documento con ID: ", res.id); 
-              console.log("url image: ", this.picture);    
+              // console.log("Documento con ID: ", res.id); 
+              // console.log("url image: ", this.picture);    
               if (res) {
                 this.name = '',
                 this.nameComplete ='',

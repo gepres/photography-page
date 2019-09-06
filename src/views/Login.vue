@@ -81,13 +81,13 @@ export default {
   methods:{
     ingresar () {
       firebase.auth().signInWithEmailAndPassword(this.email, this.password).then(() => {
-          console.log('ingresado por firebase')
+          // console.log('ingresado por firebase')
           this.$router.replace({ name: 'admin' })
         }).catch(function(error) {
           // Handle Errors here.
           var errorCode = error.code;
           var errorMessage = error.message;
-          console.log('no a ingresado');
+          // console.log('no a ingresado');
           // ...
         });
     }

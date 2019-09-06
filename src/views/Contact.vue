@@ -125,11 +125,14 @@ export default {
   },
   methods:{
     enviar(e){
-      this.showContact = true
+      setTimeout(() => {
+        e.preventDefault();
+        this.showContact = true
+      }, 2000);
       setTimeout(() => {
         e.preventDefault();
         window.location.reload()
-      }, 3000);
+      }, 4000);
     }
   }
 }

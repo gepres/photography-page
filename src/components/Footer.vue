@@ -47,7 +47,7 @@
       <v-divider></v-divider>
       
       <v-card-text class="white--text colorNav darken-2">
-        &copy;{{ new Date().getFullYear() }} — <strong>GepresDesign</strong>
+        &copy;{{ new Date().getFullYear() }} — <strong><a class="brand"  href="https://www.facebook.com/genaro.pretillescobar" target="_blank">GepresDesign</a></strong>
       </v-card-text>
    </v-layout>
   </v-footer>
@@ -78,5 +78,9 @@
        padding-top: 1.2rem;
     }
   }
+}
+.brand{
+  text-decoration:none;
+  color:rgb(255, 255, 255);
 }
 </style>
